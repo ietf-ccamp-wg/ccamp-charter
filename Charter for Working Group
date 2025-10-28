@@ -1,0 +1,59 @@
+The CCAMP working group is responsible for standardizing a common control plane and a separate common measurement plane for non-packet technologies found in the Internet and in the networks of telecom service providers (ISPs and SPs). Examples of the devices in such networks include photonic cross-connects, OEO switches, ROADMs, TDM switches, microwave links, and Ethernet switches. The working group also works on the applicability of ACTN for optical transport network. 
+
+In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
+
+The working group develops extensions to core Traffic Engineering protocols that are under the care of other working groups. The CCAMP working group will coordinate with the TEAS working group to ensure that extensions that can be generalized for use with more than one technology are made appropriately, and with the working groups that have responsibility for the specific protocols.
+
+CCAMP WG work scope includes:
+
+- Definition of protocol-independent metrics and parameters (measurement attributes) for describing links and paths that are required for routing and signaling in technology-specific networks. These will be developed in conjunction with requests and requirements from other WGs to ensure overall usefulness.
+
+- Maintenance and extension of the Link Management Protocol (LMP).
+
+- Functional specification of extensions for GMPLS-related routing (OSPF, ISIS) and signaling (RSVP-TE) protocols required for path establishment and maintenance in non-packet, technology-specific networks. Protocol formats and procedures that embody these extensions will be done jointly with the WGs supervising those protocols and the TEAS working group has the responsibility to determine whether such protocol extensions should be generalized for Traffic Engineering in any network. Coordination with PCE working group is needed to align the need for path computation in non-packet, technology-specific networks.
+
+- This may include protocol work to support data planes that have already been approved by another Standards Development Organization. Note that the specification or modification of data planes is out of scope of this working group. 
+
+- Definition of data models for the non-packet, technology-specific network control and management, including network representation, from network, connection and service perspectives, and management functionalities. Data model design will be coordinated with other related working groups, such as TEAS, OPSAWG and IVY. Future features (e.g., from IRTF) will be considered for data model design as well. 
+
+- Definition of management objects (e.g., as part of MIB modules or YANG models) and control of OAM techniques relevant to the protocols and extensions specified within the WG. The OAM work will be synchronized with the RFCs published by LIME WG.
+
+- Describe non-packet-specific aspects of traffic engineering including for multi-areas/multi-AS/multi-layer scenarios and define protocol extensions in cooperation with the TEAS and PCE working groups.
+
+- Define how the properties of network resources gathered by a measurement protocol (or by other means such as configuration) can be distributed in existing routing protocols, such as OSPF, IS-IS, and BGP-LS. CCAMP will work with the WGs that supervise these. 
+
+The CCAMP WG currently works on the following tasks:
+
+- Protocol extensions in support of WSON.
+
+- Protocol extensions in support of flexible grid lambda networks.
+
+- Maintenance of existing protocol extensions and data models for non-packet technology-specific networks (Ethernet, TDM, OTN) already specified by CCAMP.
+
+- The protocols mentioned above include RSVP, OSPF and LMP.
+
+- Architectures and data models for non-packet transceivers on packet devices. This may include optical pluggables and microwave links.
+
+Milestones
+
+Date	Milestone	Associated documents
+Dec 2026	Submit DWDM Interface YANG model to IESG for review	draft-ietf-ccamp-dwdm-if-param-yang
+Aug 2026	Submit ACTN management to IESG for review 	draft-ietf-ccamp-actn-optical-transport-mgmt 
+Apr 2026  Submit client signal YANG model to IESG for review	draft-ietf-ccamp-client-signal-yang
+Mar 2026	First version of fgOTN YANG data model working group draft	draft-tan-ccamp-fgotn-yang
+Jan 2026	Submit WDM Tunnel and WDM path computation to IESG for review	draft-ietf-ccamp-wdm-tunnel-yang  & draft-ietf-ccamp-optical-path-computation-yang
+(done)Aug 2025  Submit YANG model of WSON Impairment Topology YANG model to IESG for review;	draft-ietf-ccamp-optical-impairment-topology-yang, draft-ietf-ccamp-rfc9093-bis 
+(done)Aug 2024 First version of ACTN management working group draft  draft-gstk-ccamp-actn-optical-transport-mgmt 
+Nov 2025	First version of RDNM TE extension YANG working group draft	draft-yu-ccamp-rdnm-yang (draft-yu-ccamp-te-fgnm-yang)
+Sep 2025	Submit OTN Tunnel and OTN path computation to IESG for review	draft-ietf-ccamp-otn-tunnel-model & draft-ietf-ccamp-otn-path-computation-yang
+Jul 2025	First version of optical pluggable module working group draft	draft-rokui-ccamp-actn-wdm-pluggable-modelling 
+May 2025	Submit YANG model of Flexi-grid topology to IESG for review	draft-ietf-ccamp-flexigrid-yang
+Mar 2025 First version of network and client signal performance monitoring YANG model working group draft	draft-zheng-ccamp-client-pm-yang  & draft-yu-ccamp-optical-resource-pm-yang/ 
+(done)Aug 2022	Submit L1CSM YANG model to IESG for review	draft-ietf-ccamp-l1csm-yang
+(done)Apr 2024	Submit Microwave topology model to IESG for review	draft-ietf-ccamp-mw-topo-yang
+(done)Jul 2022	Submit YANG model of Layer 1 Types to IESG for review	draft-ietf-ccamp-layer1-types
+(done)Jul 2022	Submit YANG model of OTN topology & Flexi-grid topology to IESG for review	draft-ietf-ccamp-otn-topo-yang
+(done)Oct 2024	First version of pluggable control working group draft	draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps
+
+
+
