@@ -11,7 +11,7 @@ CCAMP WG work scope includes:
 
 - Functional specification of extensions for GMPLS-related routing (OSPF, ISIS) and signaling (RSVP-TE) protocols required for path establishment and maintenance in non-packet, technology-specific networks. Protocol formats and procedures that embody these extensions will be done jointly with the WGs supervising those protocols and the TEAS working group has the responsibility to determine whether such protocol extensions should be generalized for Traffic Engineering in any network. Coordination with PCE working group is needed to align the need for path computation in non-packet, technology-specific networks.
 
-  This may include protocol work to support data planes that have already been approved by another Standards Development Organization. Note that the specification or modification of data planes is out of scope of this working group. 
+This may include protocol work to support data planes that have already been approved by another Standards Development Organization. Note that the specification or modification of data planes is out of scope of this working group. 
 
 - Definition of data models for network control and management of non-packet, technology-specific networks, including network representation (from network, connection, and service perspectives) and management functionalities. Data model design will be coordinated with other related working groups, such as TEAS, OPSAWG, IVY, NMOP, and GREEN. Future features (e.g., from IRTF) will be considered for data model design as well. 
 
