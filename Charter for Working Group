@@ -1,4 +1,4 @@
-The CCAMP working group is responsible for standardizing a common control plane and a separate common measurement plane for non-packet technologies found in the Internet and in the networks of telecom service providers (ISPs and SPs). Examples of the devices in such networks include photonic cross-connects, OEO switches, ROADMs, TDM switches, microwave links, and Ethernet switches. The working group also works on the applicability of ACTN for optical transport network. 
+The CCAMP working group is responsible for standardizing a common control plane and a separate common measurement plane for non-packet technologies found in the Internet and in the networks of telecom service providers (ISPs and SPs). Examples of the devices in such networks include photonic cross-connects, OEO switches, ROADMs, TDM switches, microwave links, and Ethernet switches. The working group also works on the applicability of ACTN for non-packet technology networks. 
 
 In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
 
