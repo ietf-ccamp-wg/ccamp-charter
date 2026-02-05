@@ -23,6 +23,7 @@ The CCAMP WG currently works on the following tasks:
 - Definition of data models and management objects for network control and management of non-packet technology-specific network elements, topologies, and abstractions.
 - Architectures and data models for non-packet transceivers on packet devices. This includes optical pluggables and microwave links.
 
+Most of the document deliverables of the WG would be meant for publication as standards track RFCs with and exception of a few documents (e.g., frameworks, applicability, requirements, gap analysis, deployment considerations) for which publication may be requested as informational RFCs. 
 
 Coordination:
 The protocol extension work (especially definition of protocol formats and procedures) done in the WG will be done either jointly or in coordination with the WGs such as LSR and TEAS WGs that maintain those base protocols (viz. OSPF, IS-IS, and RSVP-TE). The WG will coordinate with the TEAS WG on all aspects related to TE and specifically to determine whether such protocol extensions should be generalized for TE in any network. The WG will coordinate with the PCE WG when it comes to the Path Computation Element Protocol (PCEP) and path computation aspects in non-packet technology-specific networks. Data model design will be coordinated with other related WGs, such as TEAS, OPSAWG, IVY, NMOP, and GREEN. Future features (e.g., from IRTF) will be considered for data model design as well. 
