@@ -32,20 +32,20 @@ The protocol extension work (especially definition of protocol formats and proce
 Milestones
 
 Date	Milestone	Associated documents
-Dec 2026	Submit DWDM Interface YANG model to IESG for review	draft-ietf-ccamp-dwdm-if-param-yang
-Aug 2026	Submit ACTN management to IESG for review 	draft-ietf-ccamp-actn-optical-transport-mgmt 
-Apr 2026  Submit client signal YANG model to IESG for review	draft-ietf-ccamp-client-signal-yang
-Mar 2026	First version of fgOTN YANG data model working group draft	draft-tan-ccamp-fgotn-yang
-Jan 2026	Submit WDM Tunnel and WDM path computation to IESG for review	draft-ietf-ccamp-wdm-tunnel-yang  & draft-ietf-ccamp-optical-path-computation-yang
-(done)Aug 2025  Submit YANG model of WSON Impairment Topology YANG model to IESG for review;	draft-ietf-ccamp-optical-impairment-topology-yang, draft-ietf-ccamp-rfc9093-bis 
-(done)Aug 2024 First version of ACTN management working group draft  draft-gstk-ccamp-actn-optical-transport-mgmt 
-Nov 2025	First version of RDNM TE extension YANG working group draft	draft-yu-ccamp-rdnm-yang (draft-yu-ccamp-te-fgnm-yang)
-Sep 2025	Submit OTN Tunnel and OTN path computation to IESG for review	draft-ietf-ccamp-otn-tunnel-model & draft-ietf-ccamp-otn-path-computation-yang
-Jul 2025	First version of optical pluggable module working group draft	draft-rokui-ccamp-actn-wdm-pluggable-modelling 
-May 2025	Submit YANG model of Flexi-grid topology to IESG for review	draft-ietf-ccamp-flexigrid-yang
-Mar 2025 First version of network and client signal performance monitoring YANG model working group draft	draft-zheng-ccamp-client-pm-yang  & draft-yu-ccamp-optical-resource-pm-yang/ 
+Dec 2026	Submit DWDM Interface YANG Data Model to the IESG for publication	draft-ietf-ccamp-dwdm-if-param-yang
+Aug 2026	Submit ACTN management to the IESG for publication 	draft-ietf-ccamp-actn-optical-transport-mgmt 
+Apr 2026  Submit client signal YANG Data Model to the IESG for publication	draft-ietf-ccamp-client-signal-yang
+Mar 2026	Adoption of fgOTN YANG Data Model as a working group document
+Jan 2026	Submit WDM Tunnel and WDM path computation to the IESG for publication draft-ietf-ccamp-wdm-tunnel-yang  & draft-ietf-ccamp-optical-path-computation-yang
+(done)Aug 2025  Submit YANG Data Model of WSON Impairment Topology to the IESG for publication;	draft-ietf-ccamp-optical-impairment-topology-yang, draft-ietf-ccamp-rfc9093-bis 
+(done)Aug 2024 Adoption of ACTN management as a working group document
+Nov 2025	Adoption of RDNM TE extension YANG Data Model as a working group document
+Sep 2025	Submit OTN Tunnel and OTN path computation to the IESG for publication	draft-ietf-ccamp-otn-tunnel-model & draft-ietf-ccamp-otn-path-computation-yang
+Jul 2025	Adoption of optical pluggable YANG Data Model as a working group document
+May 2025	Submit YANG Data Model of Flexi-grid topology to the IESG for publication	draft-ietf-ccamp-flexigrid-yang
+Mar 2025 Adoption of network and client signal performance monitoring YANG Data Models as a working group document
 (done)Aug 2022	Submit L1CSM YANG model to IESG for review	draft-ietf-ccamp-l1csm-yang
-(done)Apr 2024	Submit Microwave topology model to IESG for review	draft-ietf-ccamp-mw-topo-yang
-(done)Jul 2022	Submit YANG model of Layer 1 Types to IESG for review	draft-ietf-ccamp-layer1-types
-(done)Jul 2022	Submit YANG model of OTN topology & Flexi-grid topology to IESG for review	draft-ietf-ccamp-otn-topo-yang
-(done)Oct 2024	First version of pluggable control working group draft	draft-poidt-ccamp-actn-poi-pluggable-usecases-gaps
+(done)Apr 2024	Submit Microwave topology Data Model to the IESG for publication	draft-ietf-ccamp-mw-topo-yang
+(done)Jul 2022	Submit YANG Data Model of Layer 1 Types to the IESG for publication	draft-ietf-ccamp-layer1-types
+(done)Jul 2022	Submit YANG Data Model of OTN topology & Flexi-grid topology to the IESG for publication	draft-ietf-ccamp-otn-topo-yang
+(done)Oct 2024	Adoption of pluggable control as a working group document
