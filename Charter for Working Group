@@ -1,9 +1,17 @@
-Overview:
-The Common Control and Measurement Plane (CCAMP) Working Group (WG) is responsible for standardizing a common control plane and a separate common measurement plane for non-packet technologies found in the Internet and in varied operator networks that connect to it. In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
+# Overview
 
-Examples of devices that implement non-packet technologies in these networks include Optical Cross-Connects (OXC), Optical-Electronic-Optical (OEO) switches, Reconfigurable Optical Add-Drop Multiplexers (ROADMs), Time Division Multiplexing (TDM) switches, transpoonders, muxponders, optical amplifiers, routers with optical links, microwave links, and Ethernet switches. 
+The Common Control and Measurement Plane (CCAMP) Working Group (WG) is responsible for standardizing a common control plane
+and a separate common measurement plane for non-packet technologies found in the Internet and in varied operator networks
+that connect to it. In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
 
-The WG develops protocol extensions related to non-packet technologies networks including for some routing and signaling protocols developed by other routing area WGs. The WG also defines network management and operational data models for non-packet technologies, devices, and networks.
+Examples of devices that implement non-packet technologies in these networks include Optical Cross-Connects (OXC), Optical-Electronic-Optical (OEO) switches,
+Reconfigurable Optical Add-Drop Multiplexers (ROADMs), Time Division Multiplexing (TDM) switches, transpoonders, muxponders, optical amplifiers,
+routers with optical links, microwave links, and Ethernet switches. 
+
+The WG develops protocol extensions related to non-packet technologies networks including for some routing and signaling protocols developed by other routing area WGs.
+The WG also defines OAM tools, network management, and operational data models for non-packet technologies, devices, and networks.
+
+## Work Scope
 
 CCAMP WG work scope includes:
 - Definition of protocol-independent metrics and parameters (measurement attributes) for describing links and paths that are required for routing and signaling in non-packet technology-specific networks. These will be developed in conjunction with requests and requirements from other WGs to ensure overall usefulness.
@@ -11,25 +19,26 @@ CCAMP WG work scope includes:
 - Description of non-packet-specific aspects of TE including for multi-area/multi-AS/multi-layer scenarios and definition of protocol extensions for them.
 - Define how the properties of network resources gathered by a measurement protocol (or by other means such as configuration) can be distributed in existing routing protocols, such as OSPF, IS-IS, and BGP-LS.
 - Protocol work to support data planes that have already been approved by another Standards Development Organizations (SDOs) (e.g., the ITU-T). However, the specification or modification of data planes is out of scope of this WG.
-- Definition of data models for network control and management of non-packet technology-specific networks, including network representation (from network, connection, and service perspectives) and management functionalities. 
-- Definition of management objects (e.g., as part YANG models) and control of OAM techniques relevant to the protocols and extensions specified within the WG in alignment with OAM specifications developed by other WGs.
+- Definition of technology-specific data models for network control and management of non-packet technology-specific networks, including network representation and management functionalities. 
+- Definition of management objects (e.g., as part YANG data models) and control of OAM techniques relevant to the protocols and extensions specified within the WG in alignment with OAM specifications developed by other WGs.
 - The applicability of Abstraction and Control of Traffic Engineering (TE) Networks (ACTN) for non-packet technology networks. 
 
+## Current focus
 
 The CCAMP WG currently works on the following tasks:
 - Protocol extensions in support of Wavelength Switched Optical Networks (WSONs) and Optical Transport Networks (OTNs).
 - Protocol extensions in support of Flexible Grid Lambda Networks.
 - Maintenance of specifications related to protocol extensions and data models for non-packet technology-specific networks (Ethernet, TDM, OTN) published by CCAMP. This includes extensions to RSVP-TE, OSPF, IS-IS, and Link Management Protocol (LMP).
-- Definition of data models and management objects for network control and management of non-packet technology-specific network elements, topologies, and abstractions.
+- Definition of data models and management objects for network control and management of non-packet technology-specific networks and elements, including topology matters.
 - Architectures and data models for non-packet transceivers on packet devices. This includes optical pluggables and microwave links.
 
-Most of the document deliverables of the WG would be meant for publication as standards track RFCs with an exception of a few documents (e.g., architecture, framework, applicability, requirements, gap analysis, deployment considerations) for which publication may be requested as informational RFCs. 
+Most of the document deliverables from the WG would be meant for publication as Standards Track RFCs with an exception of a few documents (e.g., architecture, framework, applicability, requirements, gap analysis, deployment considerations) for which publication may be requested as Informational RFCs. 
 
-Coordination:
-The protocol extension work (especially definition of protocol formats and procedures) done in the WG will be done either jointly or in coordination with the WGs such as LSR and TEAS WGs that maintain those base protocols (viz. OSPF, IS-IS, and RSVP-TE). The WG will coordinate with the TEAS WG on all aspects related to TE and specifically to determine whether such protocol extensions should be generalized for TE in any network. The WG will coordinate with the PCE WG when it comes to the Path Computation Element Protocol (PCEP) and path computation aspects in non-packet technology-specific networks. Data model design will be coordinated with other related WGs, such as TEAS, OPSAWG, IVY, NMOP, and GREEN. Future features (e.g., from IRTF) will be considered for data model design as well. 
+# Coordination
 
+The protocol extension work (especially definition of protocol formats and procedures) in the WG will be done either jointly or in coordination with the WGs such as LSR and TEAS WGs that maintain those base protocols (viz. OSPF, IS-IS, and RSVP-TE). The WG will coordinate with the TEAS WG on all aspects related to TE and specifically to determine whether TE protocol extensions should be generalized in any network. The WG will coordinate with the PCE WG when it comes to the Path Computation Element Protocol (PCEP) and path computation aspects in non-packet technology-specific networks. Data model design will be coordinated with other related WGs, such as TEAS, OPSAWG, IVY, NMOP, and GREEN. Future features (e.g., from IRTF) will be considered for data model design as well. 
 
-Milestones
+# Milestones
 
 Date	Milestone	Associated documents
 Dec 2026	Submit DWDM Interface YANG model to IESG for review	draft-ietf-ccamp-dwdm-if-param-yang
