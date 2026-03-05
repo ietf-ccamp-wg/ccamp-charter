@@ -1,15 +1,10 @@
 # Overview
 
-The Common Control and Measurement Plane (CCAMP) Working Group (WG) is responsible for standardizing a common control plane
-and a separate common measurement plane for non-packet technologies found in the Internet and in varied operator networks
-that connect to it. In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
+The Common Control and Measurement Plane (CCAMP) Working Group (WG) is responsible for standardizing a common control plane and a separate common measurement plane for non-packet technologies found in the Internet and in varied operator networks that connect to it. In this context, measurement refers to the acquisition and distribution of attributes relevant to the setting up of tunnels and paths.
 
-Examples of devices that implement non-packet technologies in these networks include Optical Cross-Connects (OXC), Optical-Electronic-Optical (OEO) switches,
-Reconfigurable Optical Add-Drop Multiplexers (ROADMs), Time Division Multiplexing (TDM) switches, transpoonders, muxponders, optical amplifiers,
-routers with optical links, microwave links, and Ethernet switches. 
+Examples of devices that implement non-packet technologies in these networks include Optical Cross-Connects (OXC), Optical-Electronic-Optical (OEO) switches, Reconfigurable Optical Add-Drop Multiplexers (ROADMs), Time Division Multiplexing (TDM) switches, transpoonders, muxponders, optical amplifiers, routers with optical links, microwave links, and Ethernet switches. 
 
-The WG develops protocol extensions related to non-packet technologies networks including for some routing and signaling protocols developed by other routing area WGs.
-The WG also defines OAM tools, network management, and operational data models for non-packet technologies, devices, and networks.
+The WG develops protocol extensions related to non-packet technologies networks including for some routing and signaling protocols developed by other routing area WGs. The WG also defines OAM tools, network management, and operational data models for non-packet technologies, devices, and networks.
 
 ## Work Scope
 
